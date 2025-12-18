@@ -6,8 +6,7 @@ import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
 class ApiService {
-  late final String baseUrl = 'http://192.168.0.109:5000/api';
-  //dotenv.env['baseUrl']!;
+  late final String baseUrl = dotenv.env['baseUrl']!;
 
   Future<http.Response> post(String path, Map body, {String? token}) async {
     final uri = Uri.parse('$baseUrl$path');
