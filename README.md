@@ -1,2 +1,2 @@
-App for creating, viewing and calculating expense. 
-Functionality: add, update, delete, view summary.
+- App for creating, viewing and calculating expense. 
+- Functionality: add, update, delete, view summary.
